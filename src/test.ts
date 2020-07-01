@@ -1,14 +1,3 @@
-# nestjs-toy
-
-nestjs 部分实现原理
-
-## src/decorators.ts
-
-简易实现，测试：
-
-```ts
-// node dist/test
-
 import {
     Module,
     Controller,
@@ -23,7 +12,7 @@ class UserController {
     constructor() {
         console.log("UserController");
     }
-    @Get("info")
+    @Get("info/:id")
     hello() {}
     @Post("save")
     hello2() {}
@@ -52,4 +41,3 @@ class AppController {
 class AppModule {}
 
 console.log(collectRouters(AppModule));
-```

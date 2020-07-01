@@ -1,0 +1,25 @@
+{
+    "name": "nestjs-toy",
+    "version": "1.0.0",
+    "description": "nestjs 部分实现原理",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bplok20010/nestjs-toy.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bplok20010/nestjs-toy/issues"
+    },
+    "homepage": "https://github.com/bplok20010/nestjs-toy#readme",
+    "dependencies": {
+        "reflect-metadata": "^0.1.13",
+        "typescript": "^3.9.5"
+    }
+}
